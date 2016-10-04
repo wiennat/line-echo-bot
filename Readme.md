@@ -1,6 +1,7 @@
 # LINE Messaging API Echo bot
 
 This project is an echo bot implemented with LINE Messaging API.
+This code based on LINE Bot API sample found at [this repo](https://github.com/line/BC-node-server-sample).
 
 ## Install & Running
 
