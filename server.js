@@ -43,7 +43,7 @@ http.post('/', verifyRequest, function(req, res) {
 
   var message = content.message;
 
-	sendMsg(replyToken, [{ type: 'text', text: message}],
+	sendMsg(replyToken, [{ type: 'text', text: message.text}],
     function(err) {
   		if (err) {
   			// sending message failed
